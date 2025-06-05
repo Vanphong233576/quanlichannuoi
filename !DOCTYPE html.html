@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quản lí chăn nuôi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="login-box">
+      <h1>Quản lí chăn nuôi</h1>
+      <h2>Xin Chào,</h2>
+      <p>Vui lòng đăng nhập để sử dụng hệ thống</p>
+      <form id="login-form">
+        <label for="username"><strong>Username</strong></label>
+        <input type="text" id="username" placeholder="Nhập tên người dùng" required>
+
+        <label for="password"><strong>Password</strong></label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu" required>
+
+        <div class="button-group">
+          <button type="submit">Login</button>
+          <button type="button" onclick="signup()">Signup</button>
+          <button type="button" onclick="logout()">Logout</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
